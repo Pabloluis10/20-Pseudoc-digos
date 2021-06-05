@@ -1,0 +1,20 @@
+Ingresar tres números y mostrar el mayor (asuma que
+todos son distintos entre sí).
+
+Inicio
+	Escribir "Ingrese un número";
+	Leer Num1;
+	Escribir "Ingrese un segundo número";
+	Leer Num2;
+	Escribir "Ingrese un tercer número";
+	Leer Num3;
+
+	Si (Num1 > Num2 && Num1 > Num3) Entonces 
+		Escribir "El número mayor es el primero "+Num1;
+	Sino Si (Num2 > Num1 && Num2 > Num3) Entonces
+		 	Escribir "El número mayor es el segundo "+Num2;
+		 Sino
+		 	Escribir "El número mayor es el tercer "+Num3;
+		 FinSi
+	FinSi
+Fin
