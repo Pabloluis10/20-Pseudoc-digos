@@ -1,0 +1,12 @@
+Diseñar un algoritmo que pida un número por
+teclado y luego imprima el número siguiente al
+ingresado.
+
+Inicio 
+	Escribir "Ingrese un número";
+	Leer Num;
+
+	NumSiguiente = Num + 1;
+
+	Escribir "El número siguiente del número que ingreso es " + NumSiguiente; 
+Fin
