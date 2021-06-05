@@ -1,0 +1,19 @@
+Crear un algoritmo que convierta y muestre un
+valor ingresado en centímetros a yardas, metros,
+pies y pulgadas.
+
+Inicio
+	Escribir "Ingrese la medida en centímetros para combertir a yardas, metros, pies y pulgadas";
+	Leer Medida;
+
+	Yardas = 0.0109361*Medida;
+	Metros = 0.01 * Medida;
+	Pies = 0.0328084 * Medida;
+	Pulgadas = 0.393701 * Medida;
+
+	Escribir "La conversion es";
+	Escribir "Yardas = "+Yardas;
+	Escribir "Metros = "+Metros;
+	Escribir "Pies = "+Pies;
+	Escribir "Pulgadas = "+Pulgadas;
+Fin
