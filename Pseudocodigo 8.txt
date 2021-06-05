@@ -1,0 +1,20 @@
+Diseñar un algoritmo que, dados tres números
+enteros, calcule e imprima el promedio entre
+ellos.
+
+Inicio 
+	Escribir "Ingrese tres números enteros";
+	Escribir "Número 1: ";
+	Leer Num1;
+	Escribir "Número 2";
+	Leer Num2;
+	Escribir "Número 3";
+	Leer Num3;
+
+	Si(Num1 || Num2 || Num3 no son enteros) entonces
+		Escribir "Error no a ingresado datos correctos";
+	Sino 
+		Promedio = (Num1+Num2+Num3)/3;
+		Escribir "El promedio de los tres números ingresados es "+Promedio;
+	Finsi
+Fin
