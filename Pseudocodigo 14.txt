@@ -1,0 +1,21 @@
+Crear un algoritmo que calcule si dos números son
+divisibles. Para ello, se piden un primer número y un
+segundo número, entonces mostrar un cartel que diga
+“es divisible” si el segundo número es divisible al
+primero.
+
+Inicio
+	Escribir "Ingrese dos números";
+	Escribir "Número 1: ";
+	Leer Num1;
+	Escribir "Número 2: ";
+	Leer Num2;
+
+	Divisible = Num2 % Num1;
+
+	Si(Divisible == 0) Entonces
+		Escribir "'Es divisible' el segundo número es divisible por el primero":
+	Sino
+		Escribir "El segundo número no es divisible por el primero";
+	FinSi
+Fin
