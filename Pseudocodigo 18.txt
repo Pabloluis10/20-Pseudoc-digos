@@ -1,0 +1,55 @@
+Crear un algoritmo que muestre cada uno de los
+dígitos de un número ingresado por el usuario. El
+máximo permitido es de 4 dígitos. Al final debe
+mostrar la suma de los dígitos. Por ejemplo: si se
+ingresa el número 187, entonces debe mostrar en
+un único cartel lo siguiente: “d1 = 0, d2 = 1, d3 = 8
+y d4 =7. suma= 16”. (Utilice la función
+substr(string, inicio, cantidad) básicamente
+recibe un string, seleccionan la posición de inicio
+y la cantidad de caracteres a retornar, ejemplo
+substr("hola mundo",5,5) retornaría "mundo")
+
+Inicio
+	Escribir "Ingrese un número que no sea mayor a 4 digitos";
+	Leer Num;
+
+	Si (Num > 9999) Entonces 
+		Escribir "Ingreso un número mayor a 4 digitos";
+	Sino Si(Num > 999) Entonces
+		 	d1 = substr(Num, 0, 1);
+		 	d2 = substr(Num, 1, 1);
+		 	d3 = substr(Num, 2, 1);
+		 	d4 = substr(Num, 3, 1);
+		 	Suma = d1 + d2 +d3 + d4;
+
+		 	Escribir "d1 = "+d1+", d2 = "+d2+", d3 = "+d3+", d4 = "+d4+". Suma = "+Suma;
+		 Sino Si (Num > 99) Entonces
+		 		d1 = 0;
+		 		d2 = substr(Num, 0, 1);
+		 		d3 = substr(Num, 1, 1);
+		 		d4 = substr(Num, 2, 1);
+		 		Suma = d1 + d2 +d3 + d4;
+
+		 		Escribir "d1 = "+d1+", d2 = "+d2+", d3 = "+d3+", d4 = "+d4+". Suma = "+Suma;
+		 	  Sino Si (Num > 9) Entonces
+		 	  	   		d1 = 0;
+		 				d2 = 0;
+		 				d3 = substr(Num, 0, 1);
+		 				d4 = substr(Num, 1, 1);
+		 				Suma = d1 + d2 +d3 + d4;
+
+		 				Escribir "d1 = "+d1+", d2 = "+d2+", d3 = "+d3+", d4 = "+d4+". Suma = "+Suma;
+		 	  	   Sino
+		 	  	   		d1 = 0;
+		 				d2 = 0;
+		 				d3 = 0;
+		 				d4 = substr(Num, 0, 1);
+		 				Suma = d1 + d2 +d3 + d4;
+
+					 	Escribir "d1 = "+d1+", d2 = "+d2+", d3 = "+d3+", d4 = "+d4+". Suma = "+Suma;
+		 	  	   Finsi
+		 	  FinSi
+		 FinSi
+	FinSi
+Fin
