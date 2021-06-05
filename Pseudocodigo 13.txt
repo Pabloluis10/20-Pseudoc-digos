@@ -1,0 +1,18 @@
+Diseñar un algoritmo que calcule el volumen de
+un cilindro dados su radio y altura (primero el
+programa deberá verificar si son positivas).
+
+Inicio
+	Escribir "Para calcular el volumen del cilindro ingrese";
+	Escribir "Radio: "
+	Leer Radio;
+	Escribir "Altura: ";
+	Leer Altura;
+
+	Si (Radio > 0 && Altura > 0) entonces
+		Volumen = 2*pi*Radio*Radio*ALtura;
+		Escribir "El volumen del cilindro ingresado es " + Volumen;
+	Sino
+		Esribir "A ingresado datos incorrectos (Ingrese valores positivos)";
+	FinSi
+Fin
