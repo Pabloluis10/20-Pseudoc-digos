@@ -1,0 +1,16 @@
+Diseñar un algoritmo que indique con carteles si el
+número ingresado es negativo, positivo o nulo.
+
+Inicio
+	Escribir "Ingrese un número";
+	Leer Num;
+
+	Si (Num > 0) Entonces 
+		Escribir "El número ingresado es positivo";
+	Sino Si ( Num == 0) Entonces
+		 	Escribir "El número ingresado es nulo";
+		 Sino
+		 	Escribir "El número ingresado es negativo";
+		 FinSi
+	FinSi
+Fin
