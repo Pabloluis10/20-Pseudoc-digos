@@ -1,0 +1,13 @@
+Diseñar un algoritmo que convierta y muestre la
+temperatura en Fahrenheit ingresando la
+temperatura en Celsius.
+
+Inicio
+	Escribir "Ingrese una temperatura en celsius para combertir a fahrenheit";
+	Leer Temperatura;
+
+	Fahrenheit = (Temperatura * 1.8)+32;
+
+	Escribir "La conversion es";
+	Escribir "Fahrenheit = "+Fahernheit;
+Fin
