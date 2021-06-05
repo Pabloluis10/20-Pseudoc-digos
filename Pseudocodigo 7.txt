@@ -1,0 +1,10 @@
+Diseñar un algoritmo que genere un número
+aleatorio del 10 al 50, lo muestre y luego calcule y
+muestre el mismo número disminuido en un 15%.
+
+Inicio
+	Num = Aleatorio(10,50);
+	Escribir "El número aleatorio generado es " + Num;
+	Num *= 0.85;
+	Escribir "El número aleatorio disminuido un 15% es "+Num;
+Fin
