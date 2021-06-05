@@ -1,0 +1,17 @@
+Diseñar un algoritmo que imprima el área y el
+perímetro de un rectángulo ingresando su base
+y altura.
+
+Inicio
+	Escribir "Para calcular el árera y perímetro del rectangulo ingrese.";
+	Escribir "La base: ";
+	Leer Base;
+	Escribir "La altura: ";
+	Leer Altura;
+
+	Perimetro = 2*Base + 2*Altura;
+	Area = Base*Altura;
+
+	Escribir "El perímetro del rectangulo ingresado es: "+Perimetro;
+	Escribir "El área es: "+Area;
+Fin
