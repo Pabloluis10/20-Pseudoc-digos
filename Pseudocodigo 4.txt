@@ -1,0 +1,13 @@
+Diseñar un algoritmo que imprima el cuadrado y
+el cubo de un número ingresado por teclado
+
+Inicio 
+	Escribir "Ingrese un número";
+	Leer Num;
+
+	Cuadrado = Num * Num;
+	Cubo = Num * Num * Num;
+
+	Escribir "El cuadrado del número ingresado es " + Cuadrado;
+	Escribir "El cubo del número ingresado es " + Cubo;
+Fin
