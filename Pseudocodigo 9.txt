@@ -1,0 +1,20 @@
+Diseñe un algoritmo para ingresar dos palabras
+(A, B) y luego realice el intercambio de sus
+valores. Finalmente mostrar el contenido de A
+y de B.
+
+Inicio 
+	Escribir "Ingrese dos palabras":
+	Escribir "Palabra A: ";
+	Leer PalabraA;
+	Escribir "Palabra B";
+	Leer PalabraB;
+
+	Aux = PalabraA;
+	PalabraA = PalabraB;
+	PalabraB = Aux;
+
+	Escribir "Las palabras se intercambiaron ahora son";
+	Escribir "Palabra A: " + PalabraA;
+	Escribir "Palabra B: " + PalabraB;
+Fin
