@@ -1,0 +1,12 @@
+Diseñar un algoritmo que genere un número
+aleatorio del 0 al 200, lo muestre y luego calcule y
+muestre el mismo número aumentado en un 30%.
+
+Inicio
+	Num = Aleatorio(0,200);
+	Escribir "El número aleatorio es " + Num;
+
+	Num *= 1.30;
+
+	Escribir "El número aleatorio aumentado un 30% es " + Num;
+Fin
