@@ -1,0 +1,22 @@
+Realice un algoritmo para mostrar un cartel que
+indique si un triángulo es «escaleno», «equilátero» o
+«isósceles» ingresando sus lados.
+
+Inicio
+	Escribir "Que tipo de triangulo ingreso"
+	Escribir "Ingrese un lado";
+	Leer Lado1;
+	Escribir "Ingrese el segundo lado";
+	Leer Lado2;
+	Escribir "Ingrese el tercer lado";
+	Leer Lado3;
+
+	Si (Lado1 == Lado2 && Lado1 == Lado3) Entonces 
+		Escribir "El triangulo es <<Equilatero>>";
+	Sino Si (Lado1 == Lado2 || Lado1 == Lado3 || Lado2 == Lado3) Entonces
+		 	Escribir "El triangulo es <<Isósceles>>";
+		 Sino
+		 	Escribir "El triangulo es <<Escaleno>>";
+		 FinSi
+	FinSi
+Fin
