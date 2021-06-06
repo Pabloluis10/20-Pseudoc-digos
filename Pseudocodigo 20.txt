@@ -1,0 +1,25 @@
+Diseñar un algoritmo que ingresando un número
+de 5 dígitos detecte si es capicúa y muestre un
+cartel «Es capicúa» o «No es capicúa
+
+Inicio
+	Escribir "Ingrese un número: ";
+	Leer Num;
+
+	Si (Num>9999 & Num < 100000) Entonces
+		d1 = substr(Num, 0, 1);
+		d2 = substr(Num, 1, 1);
+		d3 = substr(Num, 2, 1);
+		d4 = substr(Num, 3, 1);
+		d5 = substr(Num, 4, 1);
+
+		Si(d1 == d5 && d2 == d4) Entonces
+			Escribir "El número ingresado es capicúa";
+		Sino	
+			Escribir "El número ingresado no es capicúa";
+		FinSi
+
+	Sino
+		Escribir "No ingreso un número con 5 digitos";
+	FinSi
+Fin
