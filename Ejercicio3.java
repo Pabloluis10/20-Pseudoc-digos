@@ -8,7 +8,7 @@ public class Ejercicio3{
 		int num;
 		int doble, triple;
 
-		Systme.out.println("Ingrese un número");
+		System.out.println("Ingrese un número");
 		num = entrada.nextInt();
 
 		doble = num *2;
